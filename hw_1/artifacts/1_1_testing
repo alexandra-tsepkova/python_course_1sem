@@ -1,0 +1,36 @@
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$ python3 1_1.py --help
+usage: 1_1.py [-h] [FILE]
+
+Custom nl script.
+
+Write FILE to standard output, with line numbers added.
+With no FILE read standard input.
+
+positional arguments:
+  FILE        name of file to read from
+
+options:
+  -h, --help  show this help message and exit
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$ python3 1_1.py
+abcd
+     1  abcd
+efg
+     2  efg
+h
+     3  h
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$ python3 1_1.py test_file
+     1  Lorem ipsum dolor sit amet,
+     2  consectetur adipiscing elit,
+     3  sed do eiusmod tempor incididunt
+     4  ut labore et dolore magna aliqua.
+     5  Ut enim ad minim veniam, quis nostrud
+     6  exercitation ullamco laboris nisi
+     7  ut aliquip ex ea commodo consequat.
+     8  Duis aute irure dolor in reprehenderit
+     9  in voluptate velit esse cillum
+    10  dolore eu fugiat nulla pariatur.
+    11  Excepteur sint occaecat cupidatat
+    12  non proident, sunt in culpa
+    13  qui officia deserunt mollit
+    14  anim id est laborum.
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$

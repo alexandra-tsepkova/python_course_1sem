@@ -1,0 +1,26 @@
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$ python3 1_3.py --help
+usage: 1_3.py [-h] [FILE ...]
+
+Custom wc script.
+
+Print newline, word, and byte counts for each FILE, and a total line if
+more than one FILE is specified.  A word is a non-zero-length sequence of
+characters delimited by white space.
+With no FILE read standard input.
+
+positional arguments:
+  FILE        name(s) of file(s) to read from
+
+options:
+  -h, --help  show this help message and exit
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$ python3 1_3.py
+abcd
+efg
+      2       2       9
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$ python3 1_3.py test_file
+ 14  69 459 test_file
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$ python3 1_3.py test_file test_file_2
+ 14  69 459 test_file
+ 26 166 996 test_file_2
+ 40 235 1455 total
+(venv) alexandra@alexandra-HN-WX9X:~/Desktop/studies_masters/python_course_1sem/hw_1$
